@@ -1,0 +1,20 @@
+@use './Colors.scss' as *;
+
+footer {
+	grid-area: footer;
+	height: 50px;
+	background-color: $Gray;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+
+	.footerUl {
+		padding: 4px 20px;
+		display: flex;
+		justify-content: space-around;
+		height: 100%;
+		width: 100%;
+	}
+}

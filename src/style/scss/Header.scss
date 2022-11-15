@@ -1,0 +1,15 @@
+@use './Colors.scss' as *;
+
+header {
+	grid-area: header;
+	background-color: $Gray;
+	gap: 0px;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	padding: 5px 20px;
+
+	height: 50px;
+}
