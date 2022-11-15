@@ -1,0 +1,14 @@
+.cardImg {
+	display: block;
+	position: relative;
+	border: 2px solid green;
+	max-width: 150px;
+	min-height: 150px;
+
+	.cardImgButton {
+		position: absolute;
+		left: 50%;
+		top: 70%;
+		transform: translateX(-50%);
+	}
+}
