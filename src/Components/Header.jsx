@@ -11,11 +11,11 @@ const Header = () => {
 
 			<div className="headerLeftDiv">
 				<img className="headerLeftLogo" src="Assets/images/logo-header-cat.png" alt="logo da pagina"/>
-				<h2>Pets café</h2>
+				<h2 className='headerNameLogo'>Pets café</h2>
 			</div>
 
 			<div className="headerRightDiv">
-				<button>ME ADOTE!</button>
+				<button className='buttonAdoptMe'>ME ADOTE!</button>
 
 				<a href="...">
 					<img src="Assets/images/logo-header-house.png" alt="editar isso aqui"/>

@@ -10,7 +10,7 @@ const CardImg = (props) => {
 	}
 	return (
 		<div className="cardImg" style={st}>
-			<button className="cardImgButton">
+			<button className="cardImgButton" >
 				<Link to={`/${props.type}`}>{props.type}</Link>
 		</button>
 		</div>

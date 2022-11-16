@@ -1,11 +1,23 @@
 * {
   padding: 0px;
   margin: 0px;
+  width: auto;
+  height: auto;
   box-sizing: box-border;
+}
+* ::-webkit-scrollbar {
+  width: 10px;
+  background: rgba(217, 217, 217, 0.7843137255);
+}
+* ::-webkit-scrollbar-thumb {
+  background: #888888;
+  border-radius: 8px;
 }
 
 .contents {
   height: 100vh;
+  margin: 0;
+  padding: 0px;
   display: grid;
   grid-gap: 0px;
   grid-template-columns: 1fr;

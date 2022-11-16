@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+.HomeP {
+  color: black;
+  max-width: 70%;
+  width: 100%;
+  font-family: "roboto";
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  text-transform: initial;
+}
+
+/*# sourceMappingURL=Home.css.map */

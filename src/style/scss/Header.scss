@@ -1,15 +1,48 @@
-@use './Colors.scss' as *;
+@use "./Colors.scss" as *;
+@use "./Fonts.scss" as *;
+@use "./Buttons.scss" as *;
 
 header {
-	grid-area: header;
-	background-color: $Gray;
-	gap: 0px;
+  grid-area: header;
+  background-color: $Gray;
+  gap: 0px;
 
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 125px;
 
-	padding: 5px 20px;
+  //LeftDiv
+  .headerLeftDiv {
+    width: 28%;
+    margin-right: auto;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    // flex-direction: row;
+    gap: 3%;
+  }
 
-	height: 50px;
+  .headerNameLogo {
+    color: $FontColor;
+  }
+
+  //RightDiv
+  .headerRightDiv {
+    max-width: 1350px;
+    margin-left: auto;
+    display: flex;
+    flex-flow: row;
+    margin-right: 2%;
+    justify-content: space-between;
+    gap: -9%;
+    gap: 32px;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+  }
+
+  button {
+    @include AdoptMe;
+  }
 }
