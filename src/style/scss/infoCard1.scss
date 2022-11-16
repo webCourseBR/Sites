@@ -1,15 +1,24 @@
 .infoCard1 {
-	width: 100%;
-	display: flex;
-	height: auto;
-	justify-content: space-around;
-	background-color: yellow;
-	align-items: center;
-	padding: 30px 0px;
-	// margin: 30px 0px;
-	display: block;
+  height: 35vh;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  width: 70%;
+  border-radius: 15px;
+  background-color: #d9d9d9;
+  display: flex;
 
-	.inforCardDescription {
-		border: 1px solid darkblue;
-	}
+  .inforCardDescription {
+    width: 100%;
+    margin: 10px;
+    height: auto;
+    font-size: 18px;
+    overflow: hidden;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    color: #000000;
+    font-family: "Roboto";
+    font-weight: 500;
+  }
 }

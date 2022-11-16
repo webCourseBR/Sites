@@ -1,20 +1,41 @@
-@use './Colors.scss' as *;
+@use "./Colors.scss" as *;
+
+@mixin textStyleFooter {
+  padding: 12px 30px;
+  border-radius: 28px;
+  border: none;
+  color: #000000;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 500;
+}
 
 footer {
-	grid-area: footer;
-	height: 50px;
-	background-color: $Gray;
+  overflow: hidden;
+  grid-area: footer;
+  background-color: $Gray;
+  max-width: 100%;
 
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	
+  gap: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
 
-	.footerUl {
-		padding: 4px 20px;
-		display: flex;
-		justify-content: space-around;
-		height: 100%;
-		width: 100%;
-	}
+  .footerUl {
+    padding: 4px 20px;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: center;
+    li {
+      a {
+        text-decoration: none;
+        color: $FontColor;
+        @include textStyleFooter;
+      }
+    }
+  }
 }
