@@ -6,12 +6,12 @@ import '../style/scss/Footer.scss';
 
 const Footer = () => {
 	return (
-		<footer className="footer">
+		<footer className="footer shadow-sm">
 		
 			<ul className="footerUl">
-				<li><a href="/sobre">Sobre</a></li>
-				<li><a href="/contato">Contato</a></li>
-				<li><a href="/licenca">Licença</a></li>
+				<li><a href="/about">About</a></li>
+				<li><a href="/contact">Contact</a></li>
+				<li><a href="/license">License</a></li>
 			</ul>
 
 		</footer>

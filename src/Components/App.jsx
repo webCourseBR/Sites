@@ -1,6 +1,8 @@
 import React from 'react';
 import '../style/scss/App.scss';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import Home from '../Pages/Home.jsx';
 import Dogs from '../Pages/Dogs.jsx';
 import Cats from '../Pages/Cats.jsx';
