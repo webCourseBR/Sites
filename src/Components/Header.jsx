@@ -37,7 +37,7 @@ const Header = () => {
 						<Link to="/dogs"><p className="buttonDropdownP">DOGS</p></Link>
 					</Dropdown.Item>
 					<Dropdown.Item>
-						<Link to="/donates"><p className="buttonDropdownP">DONATES</p></Link>
+						<Link to="/donate"><p className="buttonDropdownP">DONATES</p></Link>
 					</Dropdown.Item>
 				</Dropdown.Menu>
 			</Dropdown>
