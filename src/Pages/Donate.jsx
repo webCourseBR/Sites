@@ -6,8 +6,6 @@ import '../style/scss/Donate.scss';
 const Donate = () => {
     return (
         <>
-
-
             <div className='Donate'>
                 <div className='Donate_logo'>Doações</div>
 
@@ -22,17 +20,10 @@ const Donate = () => {
                 <BodyDonate />
             </div>
 
-
-
             <div className='Button'>
                 <button className='DonateButton'>COLABORAR COM A CAUSA</button>
             </div>
-
         </>
-
-
-
-
     )
 }
 

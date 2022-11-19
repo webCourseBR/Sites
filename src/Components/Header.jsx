@@ -31,13 +31,13 @@ const Header = () => {
 						<Link to="/"><p className="buttonDropdownP">HOME</p></Link>
 					</Dropdown.Item>
 					<Dropdown.Item>
-						<Link to="/cats"><p className="buttonDropdownP">CATS</p></Link>
+						<Link to="/cats"><p className="buttonDropdownP">GATOS</p></Link>
 					</Dropdown.Item>
 					<Dropdown.Item>
-						<Link to="/dogs"><p className="buttonDropdownP">DOGS</p></Link>
+						<Link to="/dogs"><p className="buttonDropdownP">CACHORROS</p></Link>
 					</Dropdown.Item>
 					<Dropdown.Item>
-						<Link to="/donate"><p className="buttonDropdownP">DONATES</p></Link>
+						<Link to="/donate"><p className="buttonDropdownP">DOAÇÕES</p></Link>
 					</Dropdown.Item>
 				</Dropdown.Menu>
 			</Dropdown>

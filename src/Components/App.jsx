@@ -7,6 +7,7 @@ import Home from '../Pages/Home.jsx';
 import Dogs from '../Pages/Dogs.jsx';
 import Cats from '../Pages/Cats.jsx';
 import Donate from '../Pages/Donate';
+import About from '../Pages/About';
 
 import Header from './Header.jsx';
 import Footer from './Footer.jsx';
@@ -14,7 +15,7 @@ import Footer from './Footer.jsx';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 function App() {
-  return (
+  	return (
 		<Router>
 			<div className="App contents">
 				<Header />
@@ -26,11 +27,12 @@ function App() {
 					<Route path="/cats" component={Cats}/>
 					<Route path="/dogs" component={Dogs}/>
 					<Route path="/donate" component={Donate}/>
+					<Route path="/about" component={About}/>
 				</main>
 				<Footer />
 			</div>
 		</Router>
-  );
+  	);
 }
 
 export default App;
