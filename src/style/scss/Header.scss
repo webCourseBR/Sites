@@ -57,7 +57,6 @@ header {
       &:hover {
         box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.342);
         color: #fff;
-        padding: 10px;
         border-radius: 7px;
         transform: translateY(-1px);
       }
@@ -78,6 +77,10 @@ header {
       display: none;
     }
     .buttonDropdownMenu {
+      .DropdownPlink {
+        text-decoration: none;
+        color: #1b1464;
+      }
       .buttonDropdownP {
         margin: 0px;
         padding: 0px;

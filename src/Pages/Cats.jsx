@@ -7,13 +7,13 @@ const Cats = (props) => {
   return (
     <>
       <div className="catsContent">
-        <h2 className="catsTitle">!!!CATS!!!</h2>
+        <h2 className="catsTitle">Gatinhos te esperando!!!</h2>
 
         <div className="catsContainer">
           <InfoCard3
             Img1="Assets/images/gato_sphynx.png"
             Img2="Assets/images/Cat01.png"
-            Img3="Assets/images/gato_sphynx.png"
+            Img3="Assets/images/about2c.jpg"
             Img4="Assets/images/Cat01.png"
             link="/donate"
           />

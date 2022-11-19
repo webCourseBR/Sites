@@ -48,7 +48,6 @@ header .headerRightDiv .ContainerLogoTopHome {
 header .headerRightDiv .ContainerLogoTopHome:hover {
   box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.342);
   color: #fff;
-  padding: 10px;
   border-radius: 7px;
   transform: translateY(-1px);
 }
@@ -81,6 +80,10 @@ header .buttonDropdown .buttonDropdownToggle {
 }
 header .buttonDropdown .buttonDropdownToggle::after {
   display: none;
+}
+header .buttonDropdown .buttonDropdownMenu .DropdownPlink {
+  text-decoration: none;
+  color: #1b1464;
 }
 header .buttonDropdown .buttonDropdownMenu .buttonDropdownP {
   margin: 0px;

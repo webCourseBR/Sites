@@ -8,10 +8,10 @@ const InfoCard3 = (props) => {
   return (
     <>
       <div className="Content">
-        <CatsToAdoption srcImg={props.Img1} right={true} />
-        <CatsToAdoption srcImg={props.Img2} right={false} />
-        <CatsToAdoption srcImg={props.Img3} right={true} />
-        <CatsToAdoption srcImg={props.Img4} right={false} />
+        <CatsToAdoption srcImg={props.Img1} right={true} img={true} />
+        <CatsToAdoption srcImg={props.Img2} right={false} img={false} />
+        <CatsToAdoption srcImg={props.Img3} right={true} img={true} />
+        <CatsToAdoption srcImg={props.Img4} right={false} img={false} />
       </div>
     </>
   );
