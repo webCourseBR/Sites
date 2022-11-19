@@ -40,17 +40,17 @@ const Header = () => {
             </Dropdown.Item>
             <Dropdown.Item>
               <Link to="/cats">
-                <p className="buttonDropdownP">CATS</p>
+                <p className="buttonDropdownP">GATOS</p>
               </Link>
             </Dropdown.Item>
             <Dropdown.Item>
               <Link to="/dogs">
-                <p className="buttonDropdownP">DOGS</p>
+                <p className="buttonDropdownP">CACHORROS</p>
               </Link>
             </Dropdown.Item>
             <Dropdown.Item>
-              <Link to="/donates">
-                <p className="buttonDropdownP">DONATES</p>
+              <Link to="/donate">
+                <p className="buttonDropdownP">DOAÇÕES</p>
               </Link>
             </Dropdown.Item>
           </Dropdown.Menu>
