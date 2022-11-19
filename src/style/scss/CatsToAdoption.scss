@@ -1,34 +1,76 @@
 @use "./Buttons.scss" as *;
+@use "./Fonts.scss" as *;
 
+.ContainerLeft,
 .ContainerRight {
-  background-color: red;
+  gap: 20px;
+}
+
+.imgTextLeft,
+.imgTextRight {
+  gap: 8px;
+}
+
+.ContainerRight,
+.imgTextRight {
   display: flex;
+
+  .divButton {
+    margin: auto;
+    display: flex;
+    max-height: 50px;
+  }
+}
+
+.ContainerLeft,
+.imgTextLeft {
+  display: flex;
+
+  .divButton {
+    margin: auto;
+    display: flex;
+    max-height: 50px;
+  }
 }
 
 .ContainerLeft {
+  margin: 85px 0 85px 0;
+}
+
+.ContainerLeft,
+.imgTextLeft {
   display: flex;
-  background-color: yellow;
   flex-direction: row-reverse;
 }
 
-.imgText {
-  background-color: rgba(9, 255, 0, 0.479);
+.Catstxt {
+  font-family: "Roboto";
+  font-weight: 800;
+  align-items: center;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d9d9d9;
+  border-radius: 15px;
+  padding: 0 15px 0 15px;
+}
+
+.CatsImg {
+  min-width: 36%;
+  max-height: 250px;
+  object-fit: cover;
+  border-radius: 15px;
 }
 
 .divButton {
-  .ButtonAdoptMe {
+  a {
     @include AdoptMe;
+
     min-width: 160px;
     min-height: 60px;
-
-    a {
-      text-decoration: none;
-      color: #ff91ab;
-
-      &:hover {
-        color: #ffffff;
-      }
-    }
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }

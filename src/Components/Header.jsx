@@ -9,11 +9,13 @@ const Header = () => {
   return (
     <header className="header shadow-sm">
       <div className="headerLeftDiv">
-        <img
-          className="headerLeftLogo"
-          src="Assets/images/logo-header-cat.png"
-          alt="logo da pagina"
-        />
+        <Link to="/" className="headerLogoToHome">
+          <img
+            className="headerLeftLogo"
+            src="Assets/images/logo-header-cat.png"
+            alt="logo da pagina"
+          />
+        </Link>
         <h2 className="headerNameLogo">Pets café</h2>
       </div>
 
@@ -34,22 +36,22 @@ const Header = () => {
           </Dropdown.Toggle>
           <Dropdown.Menu className="buttonDropdownMenu">
             <Dropdown.Item>
-              <Link to="/">
+              <Link to="/" className="DropdownPlink">
                 <p className="buttonDropdownP">HOME</p>
               </Link>
             </Dropdown.Item>
             <Dropdown.Item>
-              <Link to="/cats">
+              <Link to="/Gatos" className="DropdownPlink">
                 <p className="buttonDropdownP">GATOS</p>
               </Link>
             </Dropdown.Item>
             <Dropdown.Item>
-              <Link to="/dogs">
+              <Link to="/Cachorros" className="DropdownPlink">
                 <p className="buttonDropdownP">CACHORROS</p>
               </Link>
             </Dropdown.Item>
             <Dropdown.Item>
-              <Link to="/donate">
+              <Link to="/donate" className="DropdownPlink">
                 <p className="buttonDropdownP">DOAÇÕES</p>
               </Link>
             </Dropdown.Item>
