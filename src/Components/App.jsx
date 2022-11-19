@@ -7,6 +7,7 @@ import Home from '../Pages/Home.jsx';
 import Dogs from '../Pages/Dogs.jsx';
 import Cats from '../Pages/Cats.jsx';
 import Donate from '../Pages/Donate';
+import License from '../Pages/License.jsx';
 
 import Header from './Header.jsx';
 import Footer from './Footer.jsx';
@@ -26,6 +27,7 @@ function App() {
 					<Route path="/cats" component={Cats}/>
 					<Route path="/dogs" component={Dogs}/>
 					<Route path="/donate" component={Donate}/>
+					<Route path="/license" component={License}/>
 				</main>
 				<Footer />
 			</div>
