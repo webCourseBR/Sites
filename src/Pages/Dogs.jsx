@@ -3,7 +3,7 @@ import React from 'react';
 const Dogs = () => {
 	return (
 		<>
-			<p>!!!DOGS!!!</p>
+			<p>!!!CACHORROS!!!</p>
 		</>
 	)
 }

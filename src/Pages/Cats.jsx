@@ -4,7 +4,7 @@ import React from 'react';
 const Cats = () => {
 	return (
 		<>
-			<p>!!!CATS!!!</p>
+			<p>!!!GATOS!!!</p>
 		</>
 	)
 }
