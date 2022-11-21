@@ -1,6 +1,6 @@
 import React from 'react';
 import BodyAbout from '../Components/BodyAbout';
-import '../style/scss/About.scss';
+import '../style/css/About.css';
 
 const About = () => {
     return (
