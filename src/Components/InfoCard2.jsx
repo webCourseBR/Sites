@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../style/scss/infoCard2.scss';
+import '../style/css/infoCard2.css';
 
 import CardImg from './CardImg.jsx';
 

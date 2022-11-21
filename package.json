@@ -28,8 +28,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "watch": "sass --watch src/style/scss:src/style/css",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

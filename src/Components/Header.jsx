@@ -1,5 +1,5 @@
 import React from "react";
-import "../style/scss/Header.scss";
+import "../style/css/Header.css";
 
 import Dropdown from "react-bootstrap/Dropdown";
 import "bootstrap/dist/css/bootstrap.min.css";

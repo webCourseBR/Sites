@@ -1,10 +1,8 @@
-## TODO
-- adicionar descrição, autores ao arquivo README.md
-
 ## Contribuindo
-```sh 
+
+```sh
 git clone https://github.com/webCourseBR/Sites
-cd Sites 
-npm i 
+cd Sites
+npm i
 npm start
 ```

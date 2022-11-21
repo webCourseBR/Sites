@@ -2,7 +2,7 @@ import React from "react";
 
 import "../style/css/infoCard3.css";
 import CatsToAdoption from "./CatsToAdoption.jsx";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const InfoCard3 = (props) => {
   return (
